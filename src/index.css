@@ -22,3 +22,21 @@ body {
   width: 82.02px;
   height: 25.35px;
 }
+
+.hero {
+  padding: 30px 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__image {
+  align-self: center;
+}
+
+.hero__image>img {
+  width: 100%;
+}
+
+.hero__description-text {
+  max-width: 320px;
+}
