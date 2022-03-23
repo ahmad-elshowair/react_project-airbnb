@@ -41,18 +41,25 @@ body {
   max-width: 320px;
 }
 
+.stories {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 50px 0;
+}
+
 .card {
   width: 176px;
 }
 
 .card__image {
   position: relative;
-  border-radius: 9px;
 }
 
 .card__image>img {
   width: 100%;
-
+  border-radius: 9px;
+  height: 235px;
 }
 
 .card__btn {
