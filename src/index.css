@@ -49,7 +49,7 @@ body {
 }
 
 .card {
-  width: 176px;
+  width: 225px;
 }
 
 .card__image {
@@ -59,7 +59,7 @@ body {
 .card__image>img {
   width: 100%;
   border-radius: 9px;
-  height: 235px;
+  height: 260px;
 }
 
 .card__btn {
