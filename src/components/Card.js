@@ -1,11 +1,16 @@
 import star from '../images/star.png';
 
 export const Card = (props) =>{
-    console.log(props)
+    let badge_text; 
+    if(props.openSpots === 0){
+        badge_text = "sold out"
+    }else if(props.location === "Online"){
+        badge_text = "online";
+    }
     return (
         <div className='card'>
             <div className="card__image">
-                <span className='card__btn'>sold out</span>
+                {badge_text && <span className='card__btn'>{badge_text}</span>}
                 <img src={`../images/${props.image}`} alt="katie zaferes" className="image"/>
             </div>
             <div className="card__rate">
