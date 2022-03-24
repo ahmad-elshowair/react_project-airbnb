@@ -25,8 +25,7 @@ function App() {
      <section className="stories">
       {cards}
      </section>
-     
-    </div>
+    </div> 
   );
 }
 
